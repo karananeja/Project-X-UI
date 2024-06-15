@@ -1,5 +1,12 @@
+import { AppProvider } from './providers';
+import { AppRoutes } from './router';
+
 function App() {
-  return <div className='text-[red]'>Project X</div>;
+  return (
+    <AppProvider>
+      <AppRoutes />
+    </AppProvider>
+  );
 }
 
 export default App;
