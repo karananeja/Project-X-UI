@@ -9,10 +9,10 @@ const PageNotFound = () => {
         <span className='text-[1.625rem] mt-6 font-bold'>
           We've lost this page
         </span>
-        <p className='flex justify-center items-center mt-6'>
+        <p className='flex justify-center items-center mt-6 text-center'>
           Sorry, the page you are looking for doesn't exist.
         </p>
-        <p>
+        <p className='text-center'>
           Take a run around the block or you can go back to{' '}
           <span
             className='text-[#136EF5] cursor-pointer'
