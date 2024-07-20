@@ -56,6 +56,7 @@ const Login = () => {
                 </FormItem>
               )}
             />
+
             <FormField
               control={form.control}
               name='password'
@@ -119,7 +120,7 @@ const Login = () => {
               </Link>
             </div>
             <Button
-              className='w-[96%] h-12 m-2 bg-primary hover:bg-primary/75'
+              className='w-[96%] h-12 m-2 bg-primary hover:bg-primary/75 uppercase'
               type='submit'
             >
               Login
