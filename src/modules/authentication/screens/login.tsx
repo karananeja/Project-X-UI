@@ -35,7 +35,7 @@ const Login = () => {
   };
 
   return (
-    <div className='flex flex-col justify-between h-[90svh] lg:h-svh'>
+    <div className='flex flex-col justify-between h-[98svh] lg:h-svh'>
       <div className='flex flex-col justify-center h-full lg:items-start lg:mx-auto'>
         <h1 className='font-extrabold text-5xl m-2 text-left'>Project X</h1>
         <Form {...form}>
@@ -65,7 +65,7 @@ const Login = () => {
                     <div className='relative'>
                       <Input
                         type={showPassword ? 'text' : 'password'}
-                        placeholder='Enter your password'
+                        placeholder='Password'
                         className='h-12 focus-visible:ring-transparent'
                         {...field}
                       />
