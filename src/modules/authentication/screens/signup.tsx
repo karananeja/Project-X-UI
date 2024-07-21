@@ -40,7 +40,7 @@ const SignUp = () => {
 
   return (
     <div className='flex flex-col justify-between h-[98svh] lg:h-svh'>
-      <div className='flex flex-col justify-center h-full lg:items-start lg:mx-auto'>
+      <div className='flex flex-col justify-center h-full lg:items-start lg:mx-auto w-[22rem]'>
         <h1 className='font-extrabold text-5xl m-2 text-left'>Project X</h1>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
