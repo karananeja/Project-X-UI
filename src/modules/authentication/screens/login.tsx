@@ -37,7 +37,7 @@ const Login = () => {
   return (
     <div className='flex flex-col justify-between h-[98svh] lg:h-svh'>
       <div className='flex flex-col justify-center h-full lg:items-start mx-auto w-[22rem]'>
-        <h1 className='font-extrabold text-5xl m-2 text-left'>Project X</h1>
+        <h1 className='font-extrabold text-5xl m-2'>Project X</h1>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
             <FormField
@@ -48,7 +48,7 @@ const Login = () => {
                   <FormControl>
                     <Input
                       placeholder='Email or phone'
-                      className='h-12 focus-visible:ring-transparent'
+                      className='form-input'
                       {...field}
                     />
                   </FormControl>
@@ -67,7 +67,7 @@ const Login = () => {
                       <Input
                         type={showPassword ? 'text' : 'password'}
                         placeholder='Password'
-                        className='h-12 focus-visible:ring-transparent'
+                        className='form-input'
                         {...field}
                       />
                       <Button

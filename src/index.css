@@ -82,3 +82,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .form-input {
+    @apply h-12 focus-visible:!ring-transparent;
+  }
+}

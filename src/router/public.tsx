@@ -10,7 +10,7 @@ export const publicRoutes = [
     path: 'auth',
     element: <Authentication />,
     children: [
-      { index: true, element: <Navigate to='login' /> },
+      { index: true, element: <Navigate to='login' replace={true} /> },
       { path: 'login', element: <Login /> },
       { path: 'signup', element: <SignUp /> },
     ],

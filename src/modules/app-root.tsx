@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useAuthStatus } from './hooks/useProject';
+import { useAuthStatus } from '../hooks/useProject';
 import { useNavigate } from 'react-router-dom';
 
 const AppRoot = () => {
